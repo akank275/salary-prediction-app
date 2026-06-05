@@ -12,7 +12,14 @@ st.set_page_config(
 )
 
 # Load model
-model = joblib.load("model/salary_model.pkl")
+from pathlib import Path
+import joblib
+
+BASE_DIR = Path(__file__).resolve().parent
+
+model_path = BASE_DIR / "model" / "salary_model.pkl"
+
+model = joblib.load(model_path)
 
 # Load dataset
 df = pd.read_csv("cleaned_salary_data.csv")
