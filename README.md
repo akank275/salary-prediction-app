@@ -53,6 +53,10 @@ salary-prediction-app/
 - Real-time Salary Insights
 - Power BI Dashboard Integration
 
+## Live Demo
+
+https://salary-prediction-app-bp2f6flbexuobnzqt9llyc.streamlit.app/
+
 ## 👨‍💻 Author
 
 Akanksha Kumari Sinha
